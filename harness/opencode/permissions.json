@@ -1,0 +1,20 @@
+{
+  "permission": {
+    "edit": {
+      "*": "allow",
+      "checker.py": "deny",
+      "test_schedule.py": "deny",
+      "instances/*": "deny",
+      "harness/*": "deny"
+    },
+    "bash": {
+      "*": "ask",
+      "python *": "allow",
+      "python3 *": "allow",
+      "pytest *": "allow",
+      "git status*": "allow",
+      "git diff*": "allow",
+      "git log*": "allow"
+    }
+  }
+}

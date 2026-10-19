@@ -1,0 +1,4 @@
+planning*.json
+harness_log.jsonl
+.venv/
+__pycache__/

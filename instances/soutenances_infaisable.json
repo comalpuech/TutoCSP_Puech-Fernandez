@@ -1,0 +1,227 @@
+{
+  "nom": "Soutenances INFONUM - instance infaisable",
+  "creneaux": [
+    {
+      "id": "lun-09h",
+      "jour": "lun",
+      "periode": "matin"
+    },
+    {
+      "id": "lun-10h",
+      "jour": "lun",
+      "periode": "matin"
+    },
+    {
+      "id": "lun-11h",
+      "jour": "lun",
+      "periode": "matin"
+    },
+    {
+      "id": "lun-14h",
+      "jour": "lun",
+      "periode": "apres-midi"
+    },
+    {
+      "id": "lun-15h",
+      "jour": "lun",
+      "periode": "apres-midi"
+    },
+    {
+      "id": "lun-16h",
+      "jour": "lun",
+      "periode": "apres-midi"
+    },
+    {
+      "id": "mar-09h",
+      "jour": "mar",
+      "periode": "matin"
+    },
+    {
+      "id": "mar-10h",
+      "jour": "mar",
+      "periode": "matin"
+    },
+    {
+      "id": "mar-11h",
+      "jour": "mar",
+      "periode": "matin"
+    },
+    {
+      "id": "mar-14h",
+      "jour": "mar",
+      "periode": "apres-midi"
+    },
+    {
+      "id": "mar-15h",
+      "jour": "mar",
+      "periode": "apres-midi"
+    },
+    {
+      "id": "mar-16h",
+      "jour": "mar",
+      "periode": "apres-midi"
+    }
+  ],
+  "salles": [
+    "S101",
+    "S102"
+  ],
+  "enseignants": [
+    {
+      "id": "Arnaud",
+      "competences": [
+        "vision",
+        "nlp"
+      ],
+      "indisponible": [
+        "mar-14h",
+        "mar-15h"
+      ]
+    },
+    {
+      "id": "Benali",
+      "competences": [
+        "optimisation",
+        "logique"
+      ],
+      "indisponible": [
+        "lun-09h",
+        "lun-10h"
+      ]
+    },
+    {
+      "id": "Chen",
+      "competences": [
+        "securite",
+        "systemes"
+      ],
+      "indisponible": [
+        "lun-14h",
+        "lun-15h",
+        "lun-16h",
+        "mar-09h",
+        "mar-10h",
+        "mar-11h",
+        "mar-14h",
+        "mar-15h",
+        "mar-16h"
+      ]
+    },
+    {
+      "id": "Dubois",
+      "competences": [
+        "nlp",
+        "logique"
+      ],
+      "indisponible": [
+        "mar-09h",
+        "mar-10h",
+        "mar-11h"
+      ]
+    },
+    {
+      "id": "Esposito",
+      "competences": [
+        "vision",
+        "optimisation"
+      ],
+      "indisponible": [
+        "lun-11h"
+      ]
+    },
+    {
+      "id": "Fontaine",
+      "competences": [
+        "systemes",
+        "securite",
+        "logique"
+      ],
+      "indisponible": [
+        "mar-15h",
+        "mar-16h"
+      ]
+    }
+  ],
+  "binomes": [
+    {
+      "id": "B01",
+      "tuteur": "Arnaud",
+      "theme": "vision"
+    },
+    {
+      "id": "B02",
+      "tuteur": "Arnaud",
+      "theme": "nlp"
+    },
+    {
+      "id": "B03",
+      "tuteur": "Chen",
+      "theme": "securite"
+    },
+    {
+      "id": "B04",
+      "tuteur": "Chen",
+      "theme": "systemes"
+    },
+    {
+      "id": "B05",
+      "tuteur": "Benali",
+      "theme": "optimisation"
+    },
+    {
+      "id": "B06",
+      "tuteur": "Benali",
+      "theme": "logique"
+    },
+    {
+      "id": "B07",
+      "tuteur": "Dubois",
+      "theme": "nlp"
+    },
+    {
+      "id": "B08",
+      "tuteur": "Dubois",
+      "theme": "logique"
+    },
+    {
+      "id": "B09",
+      "tuteur": "Esposito",
+      "theme": "vision"
+    },
+    {
+      "id": "B10",
+      "tuteur": "Esposito",
+      "theme": "optimisation"
+    },
+    {
+      "id": "B11",
+      "tuteur": "Fontaine",
+      "theme": "securite"
+    },
+    {
+      "id": "B12",
+      "tuteur": "Chen",
+      "theme": "systemes"
+    },
+    {
+      "id": "B13",
+      "tuteur": "Chen",
+      "theme": "securite"
+    },
+    {
+      "id": "B14",
+      "tuteur": "Arnaud",
+      "theme": "vision"
+    },
+    {
+      "id": "B15",
+      "tuteur": "Benali",
+      "theme": "optimisation"
+    },
+    {
+      "id": "B16",
+      "tuteur": "Fontaine",
+      "theme": "logique"
+    }
+  ]
+}

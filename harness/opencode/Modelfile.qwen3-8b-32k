@@ -1,0 +1,7 @@
+# Ollama limite par défaut la fenêtre de contexte, ce qui casse les appels d'outils d'OpenCode.
+# Création d'une variante à 32k tokens :
+#   ollama pull qwen3:8b
+#   ollama create qwen3-8b-32k -f harness/opencode/Modelfile.qwen3-8b-32k
+# (même principe pour qwen3-coder:30b ou gpt-oss:20b si votre machine le permet)
+FROM qwen3:8b
+PARAMETER num_ctx 32768
